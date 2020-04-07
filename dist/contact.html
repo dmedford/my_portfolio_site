@@ -44,18 +44,30 @@
       <h1 class="lg-heading">Contact <span class="text-secondary">Me</span></h1>
       <h2 class="sm-heading">Get in touch with me</h2>
       <div class="boxes">
-        <div>
-          <span class="text-secondary">Email: </span
-          >davidmatthewmedford@gmail.com
-        </div>
-        <div>
-          <span class="text-secondary">Phone: </span
-          >davidmatthewmedford@gmail.com
-        </div>
-        <div>
-          <span class="text-secondary">Address: </span
-          >davidmatthewmedford@gmail.com
-        </div>
+        <div><span class="text-secondary">Email: </span>david@dmedford.com</div>
+      </div>
+      <div class="form-wrapper">
+        <form
+          action="https://formspree.io/xbjaowwz"
+          method="post"
+          class="flex-form"
+        >
+          <label for="contact" id="label">Get In Touch</label>
+          <input type="text" name="contact" placeholder="Full Name" required />
+
+          <input
+            type="email"
+            name="_replyto"
+            placeholder="Email Address"
+            required
+          />
+
+          <label for="message">Message</label>
+
+          <textarea name="message"></textarea>
+
+          <input type="submit" value="Send" />
+        </form>
       </div>
     </main>
 
