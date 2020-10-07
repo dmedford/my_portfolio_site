@@ -160,6 +160,9 @@ main {
 
 // Projects Page
 
+#about {
+  padding: 0 2rem;
+}
 .projects {
   display: grid;
   grid-gap: 0.7rem;
@@ -168,6 +171,9 @@ main {
   img {
     width: 100%;
     border: 3px #fff solid;
+    object-fit: cover;
+    height: 500px;
+    object-position: left;
 
     &:hover {
       opacity: 0.5;
